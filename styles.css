@@ -1,0 +1,246 @@
+/*********************** --(min-width: 300px) -- ***********************/
+@media (min-width: 300px) { 
+
+/***** --Body-- *****/
+body {
+    background-color: black;
+}
+
+/***** --Header-- *****/
+.h1 {
+    color: red;
+    font-size: 30px;
+    text-shadow: 1px 2px white;
+}
+
+/***** --Navbar Link/Colors-- *****/
+.nav-link {
+    color: red;
+    text-shadow: 1px 1px grey;
+}
+
+/***** --Navbar Link-Hover/Colors-- *****/
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px red;
+}
+
+/***** --HR Line-Breaks-- *****/
+hr {
+
+    height: 2px;
+    background-color: #ff0000;
+    border: none;
+}
+
+/***** --Footer-- *****/
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding-left: 10px;
+    bottom: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+/***** --Footer Text-- *****/
+h6 {
+    color:red;
+    text-shadow: 1px 1px gray;
+    font-size: 15px;
+
+}
+
+/***** --Paragraphs/Text-- *****/
+p {
+    text-align: center;
+    color:white;
+}
+
+/***** --Culture Page/Titles/Photo Text-- *****/
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color:white;
+}
+
+/***** --Card-Titles/Names-- *****/
+h4 {
+    color: white;
+    text-align: center;
+}
+
+}
+
+
+/*********************** --(min-width: 768px) -- ***********************/
+@media (min-width: 768px) { 
+
+
+
+/***** --Body-- *****/
+body {
+    background-color: black;
+}
+
+/***** --Header-- *****/
+.h1 {
+    color: red;
+    font-size: 50px;
+    text-shadow: 1px 2px white;
+}
+
+/***** --Navbar Link/Colors-- *****/
+.nav-link {
+    color: red;
+    text-shadow: 1px 1px grey;
+    
+}
+
+/***** --Navbar Link-Hover/Colors-- *****/
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px red;
+}
+
+/***** --HR Line-Breaks-- *****/
+hr {
+
+    height: 2px;
+    background-color: #ff0000;
+    border: none;
+}
+
+/***** --Footer-- *****/
+.footer-content {
+    border: 1px solid rgb(63, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+/***** --Footer Text-- *****/
+h6 {
+    color:red;
+    text-shadow: 1px 1px gray;
+    font-size: 18px;
+
+}
+
+/***** --Paragraphs/Text-- *****/
+p {
+    text-align: center;
+    color:white;
+}
+
+/***** --Culture Page/Titles/Photo Text-- *****/
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color:white;
+}
+
+/***** --Card-Titles/Names-- *****/
+h4 {
+    color: white;
+    text-align: center;
+}
+
+ }
+
+
+/*********************** --(min-width: 1200px) -- ***********************/
+
+@media (min-width: 1200px) { 
+
+/***** --Body-- *****/
+body {
+    background-color: black;
+}
+
+/***** --Header-- *****/
+.h1 {
+    color: red;
+    font-size: 50px;
+    text-shadow: 1px 2px white;
+}
+
+/***** --Navbar Link/Colors-- *****/
+.nav-link {
+    color: red;
+    text-shadow: 1px 1px grey;
+}
+
+/***** --Navbar Link-Hover/Colors-- *****/
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px red;
+}
+
+/***** --HR Line-Breaks-- *****/
+hr {
+
+    height: 2px;
+    background-color: #ff0000;
+    border: none;
+}
+
+/***** --Footer-- *****/
+.footer-content {
+    border: 1px solid rgb(63, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+/***** --Footer Text-- *****/
+h6 {
+    color:red;
+    text-shadow: 1px 1px gray;
+    font-size: 22px;
+
+}
+
+/***** --Paragraphs/Text-- *****/
+p {
+    text-align: center;
+    color:white;
+}
+
+/***** --Culture Page/Titles/Photo Text-- *****/
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color:white;
+}
+
+/***** --Card-Titles/Names-- *****/
+h4 {
+    color: white;
+    text-align: center;
+}
+
+ }
+
+
+
