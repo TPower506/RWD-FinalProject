@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan 日本 - RWD-Final Project - Tony Power</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--Bootstrap 5.3 CSS/Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ <!--Header-->
+<div class="header container-fluid mx-0">
+        <div class="col-12 text-center h1 pt-4" id="h1">
+          Japan 日本
+          <picture>
+            <source media="(min-width:1080px)" srcset="images/japanflagbig.jpg" >
+            <source media="(min-width:650px)" srcset="images/jpflagmedium.png" >
+            <source media="(min-width:100px)" srcset="images/Flag_of_Japan.svg.png" >
+            <img src="images/Flag_of_Japan.svg.png" alt="Japan Flag" style="width:12%;" class="rounded">                        
+        </picture>
+        <hr>
+        </div>
+      </div>
+<hr>
+      
+<!--Small Screen Navbar-->
+<div class="col-12 text-center">
+<div class="d-block d-md-none">
+    <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithOptions" aria-controls="offcanvasWithOptions">Menu</button>
+        <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" tabindex="-1" id="offcanvasWithOptions" aria-labelledby="offcanvasWithOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithOptionsLabel">Menu</h5>
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-2 w-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-menu1" data-bs-toggle="pill" data-bs-target="#menu1" type="button" 
+                    role="tab" aria-controls="v-pills-menu1" aria-selected="true">Home</button>
+                    <hr>
+                    <button class="nav-link" id="v-pills-menu2" data-bs-toggle="pill" data-bs-target="#menu2" type="button" 
+                    role="tab" aria-controls="v-pills-menu2" aria-selected="false">History</button>
+                    <hr>
+                    <button class="nav-link" id="v-pills-menu3" data-bs-toggle="pill" data-bs-target="#menu3" type="button" 
+                    role="tab" aria-controls="v-pills-menu3" aria-selected="false">Culture</button>
+                    <hr>
+                    <button class="nav-link" id="v-pills-menu4" data-bs-toggle="pill" data-bs-target="#menu4" type="button" 
+                    role="tab" aria-controls="v-pills-menu4" aria-selected="false">Land Marks</button>
+                    <hr>
+                    <button class="nav-link" id="v-pills-menu5" data-bs-toggle="pill" data-bs-target="#menu5" type="button" 
+                    role="tab" aria-controls="v-pills-menu5" aria-selected="false">Economics</button>                    
+                    <hr>
+                    <button class="nav-link" id="v-pills-menu6" data-bs-toggle="pill" data-bs-target="#menu6" type="button" 
+                    role="tab" aria-controls="v-pills-menu6" aria-selected="false">Famous People</button>                   
+                     <hr>
+                    <button class="nav-link" id="v-pills-menu7" data-bs-toggle="pill" data-bs-target="#menu7" type="button" 
+                    role="tab" aria-controls="v-pills-menu7" aria-selected="false">Climate</button>                   
+                     <hr>
+                    <button class="nav-link" id="v-pills-menu8" data-bs-toggle="pill" data-bs-target="#menu8" type="button" 
+                    role="tab" aria-controls="v-pills-menu8" aria-selected="false">Natural Features</button>                    
+                    <hr>
+                    <button class="nav-link" id="v-pills-menu9" data-bs-toggle="pill" data-bs-target="#menu9" type="button" 
+                    role="tab" aria-controls="v-pills-menu9" aria-selected="false">Carousel</button>                   
+                   </div>
+               </div>
+           </div>
+      </div>
+   </div>
+
+
+<div class="row vh-75 w-100"> 
+          <!--Navbar for other screens-->
+<div class="d-flex align-items-center d-none d-md-flex col-md-12 col-xl-2 flex-xl-column p-xl-0">
+        <div class="nav d-flex p-2 flex-xl-column nav-pills me-xl-2 w-50 flex-grow-" id="v-pills-tab" role="tablist">
+                <button class="nav-link active" id="v-pills-menu1" data-bs-toggle="pill" data-bs-target="#menu1" type="button" 
+                role="tab" aria-controls="v-pills-menu1" aria-selected="true">Home</button>
+                <hr>
+                <button class="nav-link " id="v-pills-menu2" data-bs-toggle="pill" data-bs-target="#menu2" type="button" 
+                role="tab" aria-controls="v-pills-menu2" aria-selected="false">History</button>
+                <hr>
+                <button class="nav-link" id="v-pills-menu3" data-bs-toggle="pill" data-bs-target="#menu3" type="button" 
+                role="tab" aria-controls="v-pills-menu3" aria-selected="false">Culture</button>
+                <hr>
+                <button class="nav-link" id="v-pills-menu4" data-bs-toggle="pill" data-bs-target="#menu4" type="button" 
+                role="tab" aria-controls="v-pills-menu4" aria-selected="false">Land Marks</button>
+                <hr>
+                <button class="nav-link" id="v-pills-menu5" data-bs-toggle="pill" data-bs-target="#menu5" type="button" 
+                role="tab" aria-controls="v-pills-menu5" aria-selected="false">Economics</button>
+                <hr>
+                <button class="nav-link" id="v-pills-menu6" data-bs-toggle="pill" data-bs-target="#menu6" type="button" 
+                role="tab" aria-controls="v-pills-menu6" aria-selected="false">Famous People</button>
+                <hr>
+                <button class="nav-link" id="v-pills-menu7" data-bs-toggle="pill" data-bs-target="#menu7" type="button" 
+                role="tab" aria-controls="v-pills-menu7" aria-selected="false">Climate</button>
+                <hr>
+                <button class="nav-link" id="v-pills-menu8" data-bs-toggle="pill" data-bs-target="#menu8" type="button" 
+                role="tab" aria-controls="v-pills-menu8" aria-selected="false">Natural Features</button>
+                <hr>
+                <button class="nav-link" id="v-pills-menu9" data-bs-toggle="pill" data-bs-target="#menu9" type="button" 
+                role="tab" aria-controls="v-pills-menu9" aria-selected="false">Carousel</button>   
+        </div>
+</div>
+
+<!--Content-->
+<div class="tab-content col-14 col-md-10 col-xl-9" id="v-pills-tabContent">
+
+        <!--Menu 1 Content(Home)-->
+<div class="tab-pane fade show active" aria-current="true" id="menu1" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="0">
+     <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-3 d-flex justify-content-center ">
+        <div class="col">
+        <div class="col-12 text-center h1 pt-4" id="h1">
+            <h1>Welcome To Japan 日本</h1>
+            </div>
+            <hr>
+            <picture>
+                <source media="(min-width:1080px)" srcset="images/japan_2x.jpg" class="img-fluid rounded">
+                <source media="(min-width:650px)" srcset="images/japanmedium1.jpg" class="img-fluid rounded">
+                <source media="(min-width:100px)" srcset="images/japanhomesmall.jpg" class="img-fluid rounded">
+                <img src="images/japan_2x.jpg" alt="Japan" style="width:100%;" class="img-fluid rounded">                        
+            </picture>
+            <p>
+            <br>
+            Konnichiwa (こんにちは) - Hello.
+            </p>
+            <p>
+            Arigatou Gozaimasu (ありがとうございます) - Thank you.
+            </p>
+            <p>
+            Sumimasen (すみません) - Excuse me.
+            </p>
+        </div>
+     </div>
+</div>
+    
+             <!--Menu 2 Content(History)-->
+ <div class="tab-pane fade" aria-current="true" id="menu2" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="1">
+        <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-1 d-flex justify-content-center ">
+           <div class="col">
+           <div class="col-12 text-center h1 pt-4" id="h1">
+               <h1>History Of Japan 日本</h1>
+               </div>
+               <hr>
+               <p class="lead">
+                Japan (Japanese: 日本, Nippon or Nihon,and formally 日本国, Nihonkoku) is an island country in East Asia. It is situated in the northwest Pacific Ocean, and is bordered on the west by the Sea of Japan, while extending from the Sea of Okhotsk in the north toward the East China Sea, Philippine Sea, and Taiwan in the south. Japan is a part of the Ring of Fire, and spans an archipelago of 6852 islands covering 377,975 square kilometers (145,937 sq mi); the five main islands are Hokkaido, Honshu (the "mainland"), Shikoku, Kyushu, and Okinawa. Tokyo is the nation's capital and largest city, followed by Yokohama, Osaka, Nagoya, Sapporo, Fukuoka, Kobe, and Kyoto.
+               </p>
+               <hr>
+               <p class="lead">
+                Japan is the eleventh most populous country in the world, as well as one of the most densely populated and urbanized. About three-fourths of the country's terrain is mountainous, concentrating its population of 123.2 million on narrow coastal plains. Japan is divided into 47 administrative prefectures and eight traditional regions. The Greater Tokyo Area is the most populous metropolitan area in the world, with more than 35.6 million residents.
+            </p>
+            <hr>
+               <p class="lead">
+                Japan has been inhabited since the Upper Paleolithic period (30,000 BC), though the first written mention of the archipelago appears in a Chinese chronicle (the Book of Han) finished in the 2nd century AD. Between the 4th and 9th centuries, the kingdoms of Japan became unified under an emperor and the imperial court based in Heian-kyō. Beginning in the 12th century, political power was held by a series of military dictators (shōgun) and feudal lords (daimyō) and enforced by a class of warrior nobility (samurai). After a century-long period of civil war, the country was reunified in 1603 under the Tokugawa shogunate, which enacted an isolationist foreign policy. In 1854, a United States fleet forced Japan to open trade to the West, which led to the end of the shogunate and the restoration of imperial power in 1868.
+                <br>
+                <br><a href="https://en.wikipedia.org/wiki/Japan" class="link-danger">Offical Wiki/Source Of Information</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+                <!--Menu 3 Content(Culture)-->
+    <div class="tab-pane fade" aria-current="true" id="menu3" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="2">
+        <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-3 d-flex justify-content-center">
+           <div class="col">
+           <div class="col-12 text-center h1 pt-4 justify-content-center" id="h1">
+               <h1>Culture Of Japan 日本</h1>
+               </div>
+               <hr>
+               <h2>Languages</h2>
+               <p>
+                   Japanese is the national and primary language of Japan. Japanese has a lexically distinct pitch-accent system.
+                   Early Japanese is known largely on the basis of itsstate in the 8th century when the three major works of Old Japanese were compiled.
+                    <img src="images/japanKB.png" alt="Japan Keyboard" class="img-fluid rounded">
+                   <br>
+                   <p>Japanese Keyboard</p>
+                    <hr>
+                   <h2>Religion</h2>
+                   <p>
+                   Shinto and Buddhism are the primary religions of Japan.
+                   According to the annual statistical research on religion in 2018 by the Government of Japan's Agency for Culture Affairs, 66.7 percent of the population practices Buddhism, 69.0 percent practices Shintoism, 7.7 percent other religions.
+                   <br>
+                   </p>
+                       <img src="images/japanreligions.jpg" alt="Japan Religion" class="img-fluid rounded">
+                   <P>Religions in Japan</p>
+                    <hr>
+                   <h2>Literature</h2>
+                   <p>
+                   Early works of Japanese literature were heavily influenced by cultural contact with China and Chinese literature, often written in Classical Chinese.
+                   Eventually, Japanese literature developed into a separate style in its own right as Japanese writers began writing their own works about Japan.
+                    </p>
+                       <img src="images/japanlit1.jpg" alt="Japan Religion" class="img-fluid rounded">
+                   <p>Japanese Calligraphy</p>
+                    <hr>
+                   <h2>Visual Arts </h2>
+                <p>
+                   Japanese Calligraphy(as seen in picture above), rendered using flowing, brush-drawn strokes,<br> is considered to be a traditional art form,<br> as well as a means of conveying written information.<br>
+                </p>
+                  <p>
+                   Painting has been an art in Japan for a very long time: the brush is a traditional writing and painting tool, <br>and the extension of that to its use as an artist's tool was probably natural.<br>
+                    </p>
+                    <p>
+                   Ukiyo-e, literally "pictures of the floating world",<br> is a genre of woodblock prints that exemplifies the characteristics of pre-Meiji Japanese art.<br>
+                    </p>
+                    <p>
+                   Japanese lacquerware and ceramics have historically gained international fame,<br> and lacquerware has been actively exported since the Muromachi period and ceramics since the Edo period.<br>
+                    </p>
+                  <p>
+                   Ikebana is the Japanese art of flower arrangement.
+                   </p>
+                    <hr>
+                   <h2>Traditional Clothing</h2>
+                   <p>
+                   The kimono is the national garment of Japan.
+                   The happi coat is another form of traditional clothing.
+                   </p>
+                       <img src="images/kimonos1.webp" alt="Japan Religion" class="img-fluid rounded">
+                   <p>Kimono</p>
+                   <hr>
+                   <h2>Music</h2>
+                   <p>
+                   The music of Japan includes a wide array of performers in distinct styles both traditional and modern.
+                   Japan is the second largest music market in the world behind the United States, and is the largest in Asia.
+                   </p>
+                       <img src="images/japanmusic1.png" alt="Japan Religion" class="img-fluid rounded">
+                   <hr>
+                   <h2>Sports And Leisure</h2>
+                   <p>
+                   Kendo, Kyūdō, Sōjutsu, Jujutsu, Samurai, Sumo are all forms of martial arts, as well as Baseball is very popular in Japan.
+                   </p>
+                       <img src="images/japansumo1.jpg" alt="Japan Religion" class="img-fluid rounded">
+                   <p>Sumo Wrestling</p>
+                   <hr>
+            </div>
+     </div>
+</div>
+
+                <!--Menu 4 Content(Landmarks)-->
+<div class="tab-pane fade" aria-current="true" id="menu4" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="3">
+        <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-3 d-flex justify-content-center ">
+           <div class="col">
+           <div class="col-12 text-center h1 pt-4" id="h1">
+               <h1>Landmarks Of Japan 日本</h1>
+               </div>
+               <hr>
+               <picture>
+                <source media="(min-width:1080px)" srcset="images/japanlmmed.jpg" class="img-fluid rounded">
+                <source media="(min-width:650px)" srcset="images/japanmap.png" class="img-fluid rounded">
+                <source media="(min-width:100px)" srcset="images/japanlmsm.jpg" class="img-fluid rounded">
+                <img src="images/japanlmmed.jpg" class="img-fluid rounded" alt="Japan Map">                   
+            </picture>
+               <hr>
+               <p>
+                Map of Japanese prefectures. The Japanese prefectures were divided into different regions.
+                <br>
+                <br>
+                <a href="https://www.researchgate.net/figure/Map-of-Japanese-prefectures-The-Japanese-prefectures-were-divided-into-nine-regions-in_fig2_351106013" class="link-danger">Source Of Information</a>
+               </p>
+          </div>
+     </div>
+</div>
+
+                <!--Menu 5 Content(Economy)-->
+<div class="tab-pane fade" aria-current="true" id="menu5" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="4">
+        <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-3 d-flex justify-content-center ">
+           <div class="col">
+           <div class="col-12 text-center h1 pt-4" id="h1">
+               <h1>Economics Of Japan 日本</h1>
+               </div>
+               <hr>
+               <img src="images/japanecon1.webp" alt="Japan Economy" class="img-fluid mx-auto d-block rounded"><br>
+               <P>
+                Japan's economic recovery in 2020 was relatively strong. By Q4, real GDP was down just 1.2% from a year earlier, thanks to a rebound in consumer spending and ample foreign demand.
+               </P>
+               <hr>
+               <img src="images/japanecom2.png" alt="Japan Economy" class="img-fluid mx-auto d-block rounded">
+               <p>
+                Japan's economy returned to growth at the end of 2021, fueled by the power of consumer spending that is now threatened by the latest omicron wave. and by Jan 2022 It was Skyrocketing.
+               </p>
+               <hr>
+               <img src="images/japanecon3.png" alt="Japan Economy" class="img-fluid mx-auto d-block rounded"><br>
+               <p>
+                The following table shows the main economic indicators in 1980-2021 (with IMF staff stimtates in 2022-2027). Inflation under 5% is in green.
+               </p>
+        </div>
+    </div>
+</div>
+
+                <!--Menu 6 Content(Famous People)-->
+<div class="tab-pane fade" aria-current="true" id="menu6" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="5">
+        <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-3 d-flex justify-content-center ">
+           <div class="col">
+           <div class="col-12 text-center h1 pt-4" id="h1">
+               <h1>Famous People Of Japan 日本</h1>
+               </div>
+               <hr>
+               <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="" alt="">
+    
+                            <div class="card-body bg-black bordered">
+                                <img src="images/kojima_hideo.jpg" alt="kojima_hideo" class="img-fluid d-block mx-auto rounded">
+                                <h4>Hideo Kojima</h4>
+                                <hr>
+                                <p class="card-text">
+                                    is a Japanese video game designer, director, producer and writer.
+                                    Known for the <i>Metal Gear</i> series, a game that laid the foundations for stealth games and MGS.
+                                </p>
+                                <hr>
+                                <P>
+                                <a href="https://en.wikipedia.org/wiki/Hideo_Kojima" class="btn btn-outline-danger btn-lg">
+                                    Offical Wiki
+                                </a>
+                                </P>
+                                <p>
+                                <a href="https://m.imdb.com/name/nm0463620/?ref_=m_nmfm_nm" class="btn btn-outline-danger btn-lg">
+                                    Offical IMDb
+                                </a>
+                                </P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="" alt="">
+    
+                            <div class="card-body bg-black bordered">
+                                <img src="images/Tatsuya_Fujiwara.png" alt="Tatsuya_Fujiwara" class="img-fluid d-block mx-auto rounded">
+                                <h4>Tatsuya Fujiwara</h4>
+                                <hr>
+                                <p>
+                                    is a Japanese actor. Internationally, he is best known for his leading roles as Shuya Nanahara in the Battle Royale films, Light Yagami in the Death Note films.
+                                </p>
+                                <hr>
+                                <p>
+                                <a href="https://en.wikipedia.org/wiki/Tatsuya_Fujiwara" class="btn btn-outline-danger btn-lg">
+                                    Offical Wiki
+                                </a>
+                            </p>
+                                <p>
+                                <a href="https://www.imdb.com/name/nm0297885/?ref_=nmls_pst" class="btn btn-outline-danger btn-lg">
+                                    Offical IMDb
+                                </a>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="" alt="">
+    
+                            <div class="card-body bg-black bordered">
+                                <img src="images/Marie_Kondo.jpg" alt="kojima_hideo" class="img-fluid d-block mx-auto rounded">
+                                <h4>Marie Kondo</h4>
+                                <hr>
+                                <p>
+                                is known for writing four books on organizing, which have collectively sold millions of copies around the world. Her most famous book is "The Life-Changing Magic of Tidying Up (2011)"
+                                </p>
+                                <hr>
+                                <p>
+                                <a href="https://en.wikipedia.org/wiki/Marie_Kondo" class="btn btn-outline-danger btn-lg">
+                                    Offical Wiki
+                                </a>
+                                </p>
+                                <p>
+                                <a href="https://www.imdb.com/name/nm5700825/" class="btn btn-outline-danger btn-lg">
+                                    Offical IMDb
+                                </a>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="" alt="">
+    
+                            <div class="card-body bg-black bordered">
+                                <img src="images/Hiroyuki_Sanada.png" alt="Tatsuya_Fujiwara" class="img-fluid d-block mx-auto rounded">
+                                <h4>Hiroyuki Sanada</h4>
+                                <hr>
+                                <p>
+                                    is a Japanese actor. He made his first film debut at 5 years old and is known for staring in, Army of the dead, Mortal Kombat, 47 Ronin, and even The Minions movie.
+                                </p>
+                                <hr>
+                                <p>
+                                <p>
+                                <a href="https://en.wikipedia.org/wiki/Hiroyuki_Sanada" class="btn btn-outline-danger btn-lg">
+                                    Offical Wiki
+                                </a>
+                                </p>
+                                <p>
+                                <a href="https://www.imdb.com/name/nm0760796/?ref_=nm_mv_close" class="btn btn-outline-danger btn-lg">
+                                    Offical IMDb
+                                </a>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!--Menu 7 Content(Climate)-->
+<div class="tab-pane fade" aria-current="true" id="menu7" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="6">
+        <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-3 d-flex justify-content-center ">
+           <div class="col">
+           <div class="col-12 text-center h1 pt-4" id="h1">
+               <h1>Climate Of Japan 日本</h1>
+               </div>
+               <hr>
+                   <img src="images/japansclimate.png" alt="Japan" class="img-fluid rounded">
+               <p>
+                <br>
+                The JMA is predicting above-normal temperatures for all of Japan, with the best chance in the southern half of the country (60% probability). This also contains a 30% chance for near-normal temperatures and a 10% chance of below-normal temperatures. In the northern part of the country, the JMA predicts a 40% chance for above-normal temperatures, with a 40% chance for near-normal temperatures and a 20 percent chance for below-normal temperatures. 
+                <br>
+                   <br><a href="https://opensnow.com/news/post/japan-2023-2024-winter-forecast-and-potential-el-ni-o-impacts" class="link-danger">Source Of Information</a>
+               </p>
+        </div>
+    </div>
+</div>
+
+            <!--Menu 8 Content(Natural Features)-->
+    <div class="tab-pane fade" aria-current="true" id="menu8" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="7">
+        <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-3 d-flex justify-content-center ">
+           <div class="col">
+           <div class="col-12 text-center h1 pt-4" id="h1">
+               <h1>Natural Features Of Japan 日本</h1>
+               </div>
+               <hr>
+               <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="" alt="">
+    
+                            <div class="card-body bg-black bordered">
+                                <img src="images/japanfuji.jpg" alt="Fuji" class="img-fluid rounded">
+                                <hr>
+                                <h4>Mt. Fuji</h4>
+                                <p>
+                                    Mt. Fuji is an active volcano located on the border of Yamanashi and Shizuoka prefecture on Honshu Island.
+                                    There are many places by the base of the mountain where you can stay to gaze upon the mountain but it depends on cloud visibility.
+                                    Nevertheless, this is a must visit for those in Japan who enjoy looking at natural wonders.
+                                </p>
+                                <hr>
+                                <P>
+                                <a href="https://en.wikipedia.org/wiki/Mount_Fuji" class="btn btn-outline-danger btn-lg">
+                                    Offical Wiki
+                                </a>
+                                </P>
+                                <p>
+                                <a href="https://top.his-usa.com/destination-japan/blog/japans_natural_wonders.html" class="btn btn-outline-danger btn-lg">
+                                    Source
+                                </a>
+                                </P>
+                                <p>
+                                    <a href="https://www.japan-guide.com/e/e2172.html" class="btn btn-outline-danger btn-lg">
+                                    Travel Guide
+                                    </a>
+                                </P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="" alt="">
+    
+                            <div class="card-body bg-black bordered">
+                                <img src="images/japangorge.jpg" alt="Takachiho Gorge" class="img-fluid rounded">
+                                <hr>
+                                <h4>Takachiho Gorge</h4>
+                                <p>
+                                    Takachiho Gorge is located in the Miyazaki prefecture and is a must see for those who can't get enough of natural, scenic places.
+                                    Visitors can either rent a boat and row down a river up to a waterfall, or walk on a path. 
+                                    The area is absolutely stunning, and just another natural wonder that Japan has to offer.                                
+                                </p>
+                                <hr>
+                                <p>
+                                <a href="https://commons.wikimedia.org/wiki/File:Takachiho_Gorge_by_boat.jpg" class="btn btn-outline-danger btn-lg">
+                                    Offical Wiki
+                                </a>
+                            </p>
+                                <p>
+                                <a href="https://top.his-usa.com/destination-japan/blog/japans_natural_wonders.html" class="btn btn-outline-danger btn-lg">
+                                    Source
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://www.japan-guide.com/e/e8052.html" class="btn btn-outline-danger btn-lg">
+                                    Travel Guide
+                                </a>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!--Menu 9 Content(Carousel)-->
+    <div class="tab-pane fade" aria-current="true" id="menu9" role="tabpanel" aria-labelledby="v-pills-menu1" tabindex="8">
+        <div class="content row row-cols-1 row-cols-md-2 rows-col-xl-3 d-flex justify-content-center ">
+           <div class="col">
+           <div class="col-12 text-center h1 pt-4" id="h1">
+               <h1>Picture Carousel Of Japan 日本</h1>
+               </div>
+               <hr>
+               <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/japanc4.jpg" class="d-block w-100 rounded" alt="Japan Carousel">
+
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/japanc2.jpg" class="d-block w-100 rounded" alt="Japan Carouse2">
+
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/japanc3.jpg" class="d-block w-100 rounded" alt="Japan Carouse3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+ </div>
+
+ <hr>
+<!--Footer-->
+<div class="footer-content">
+    <div class="left"><h6>Due: Dec: 16th/2023</h6></div>
+    <div class="center"><h6>RWD - Final Project</h6></div>
+    <div class="right"><h6>By: Tony Power</h6></div>
+ </div>
+ <hr>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
